@@ -10,5 +10,5 @@ class Memory(ABC):
         pass
     
     @abstractmethod
-    def pop(self, key: str) -> Any:
+    def pop(self, key: str) -> Any | None:
         pass
